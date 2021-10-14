@@ -28,7 +28,7 @@ add_custom_command(OUTPUT ${DOXYGEN_INDEX_FILE}
 # Nice named target so we can run the job easily
 add_custom_target(Doxygen ALL DEPENDS ${DOXYGEN_INDEX_FILE})
 
-set(SPHINX_SOURCE ${CMAKE_SOURCE_DIR}/sphinx)
+set(SPHINX_SOURCE ${CMAKE_SOURCE_DIR}/doc)
 set(SPHINX_BUILD ${CMAKE_CURRENT_BINARY_DIR}/sphinx)
 set(SPHINX_INDEX_FILE ${SPHINX_BUILD}/index.html)
 
