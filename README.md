@@ -42,3 +42,11 @@ for (int i = 0; i < arr.size(); i++) {
 
 `BitArray` does not support random access iterators. It is also not possible to
 mutate the bit array through the iterators.
+
+## Documentation
+
+The documentation for this project is hosted at [readthedocs](https://bitarray.readthedocs.io/en/latest)
+
+## License
+
+This project uses the MIT license.

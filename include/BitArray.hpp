@@ -1,5 +1,8 @@
 #pragma once
 
+/* Copyright (C) 2021 Dhruv Chawla */
+/* See LICENSE at project root for license details */
+
 #ifndef BITARRAY_HPP
 #define BITARRAY_HPP
 
